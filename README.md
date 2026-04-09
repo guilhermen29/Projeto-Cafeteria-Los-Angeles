@@ -1,26 +1,26 @@
-# ☕ Análise de Mercado – Cafeteria Tecnológica em Los Angeles
+# ☕ Market Analysis - Coffee Shops in Los Angeles
 
-Projeto de **Análise de Dados** focado na avaliação da viabilidade de abrir uma cafeteria moderna em **Los Angeles**, utilizando dados do mercado gastronômico local.
+Data analysis project** focused on assessing the feasibility of opening a modern cafeteria in **Los Angeles**, using local food market data.
 
-O estudo busca identificar **oportunidades de mercado, padrões de concorrência e estratégias de localização**, utilizando análise exploratória de dados para apoiar uma decisão de negócio baseada em dados.
-
----
-
-# 📊 Objetivo do Projeto
-
-O objetivo deste projeto é analisar o mercado de restaurantes em **Los Angeles** para identificar oportunidades para o lançamento de uma **cafeteria inovadora com tecnologia de garçons robôs**.
-
-Perguntas de negócio investigadas:
-
-* ☕ Qual a distribuição dos tipos de estabelecimentos em Los Angeles?
-* 📉 O segmento de cafeterias é competitivo ou apresenta oportunidade de nicho?
-* 🪑 Existe relação entre **tamanho do estabelecimento e número de unidades das redes**?
-* 📍 Quais regiões concentram maior número de restaurantes?
-* 🚀 Qual modelo de negócio seria mais viável para uma nova cafeteria?
+The study seeks to identify **market opportunities, competition patterns and location strategies**, using exploratory data analysis to support a data-driven business decision.
 
 ---
 
-# 🗂️ Estrutura do Projeto
+# 📊 Project Objective
+
+The goal of this project is to analyze the restaurant market in **Los Angeles** to identify opportunities for launching an innovative **cafeteria with robot boy technology**.
+
+Business questions investigated:
+
+* ☕ What is the distribution of types of establishments in Los Angeles?
+* 📉 Is the coffee shop segment competitive or a niche opportunity?
+* 🪑 Is there a relationship between the **size of the establishment and the number of units in the networks**?
+* 📍 Which regions have the highest number of restaurants?
+* 🚀 Which business model would be most viable for a new coffee shop?
+
+---
+
+# 🗂️ Project Structure
 
 ```
 Projeto-Coffee-LA
@@ -38,13 +38,13 @@ Projeto-Coffee-LA
 
 ---
 
-# 📁 Descrição das Pastas
+# 📁 Folder Description
 
 ### 📂 data
 
-Contém o dataset utilizado na análise do mercado gastronômico.
+Contains the dataset used in the food market analysis.
 
-Arquivo principal:
+Master file:
 
 * `rest_data_us_upd.csv` — base de dados com informações sobre restaurantes em Los Angeles.
 
@@ -52,33 +52,33 @@ Arquivo principal:
 
 ### 📂 notebook
 
-Contém o **Jupyter Notebook** com toda a análise exploratória de dados.
+Contains the **Jupyter Notebook** with all exploratory data analysis.
 
-O notebook inclui:
+The notebook includes:
 
-* limpeza e preparação dos dados
-* análise exploratória (EDA)
-* visualizações de dados
-* interpretação dos resultados
+* data cleaning and preparation
+* exploratory analysis (EDA)
+* data views
+* interpretation of results
 
 ---
 
-### 📄 Apresentação Projeto
+### 📄 Project presentation
 
-Arquivo:
+File:
 
 `Apresentação Projeto 10.pdf`
 
-Apresenta de forma visual:
+Visually presents:
 
-* análise do mercado
-* identificação de oportunidades
-* estratégia de localização
-* recomendações de modelo de negócio
+* market analysis
+* opportunity identification
+* location strategy
+* business model recommendations
 
 ---
 
-# 🛠️ Ferramentas Utilizadas
+# 🛠️ Tools Used
 
 * 🐍 Python
 * 🐼 Pandas
@@ -88,67 +88,67 @@ Apresenta de forma visual:
 
 ---
 
-# 📈 Principais Insights
+# 📈 Key Insights
 
-A análise revelou alguns padrões importantes no mercado gastronômico de Los Angeles:
+The analysis revealed some important patterns in the Los Angeles food market:
 
-### 🍽️ Estrutura do Mercado
+### 🍽️ Market Structure
 
-* Restaurantes representam aproximadamente **75% do mercado**
-* Cafeterias representam cerca de **4,5% dos estabelecimentos**
+* Restaurants account for approximately **75% of the market*
+* Coffee shops represent about **4.5% of establishments**
 
-Isso sugere que o segmento de cafeterias pode representar **uma oportunidade de nicho**.
-
----
-
-### 🏢 Redes vs Independentes
-
-* **61,9%** dos estabelecimentos são independentes
-* **38,1%** fazem parte de redes
-
-Isso indica espaço para um modelo **boutique e tecnológico**, com experiência diferenciada.
+This suggests that the coffee shop segment may represent **a niche opportunity**.
 
 ---
 
-### 🪑 Estratégia de Escala
+### 🏢 Networks vs Independents
 
-A análise mostra que redes bem-sucedidas tendem a:
+* **61.9%** of establishments are independent
+* **38.1%** are part of networks
 
-✔ operar **muitas unidades menores**
-✔ evitar poucas unidades grandes
-
-Isso sugere que um modelo de **cafeterias compactas** pode ser mais eficiente.
+This indicates space for a **boutique and technological* model, with differentiated experience.
 
 ---
 
-### 📍 Localização Estratégica
+### 🪑 Scale Strategy
 
-As ruas com maior concentração de estabelecimentos incluem:
+The analysis shows that successful networks tend to:
+
+✔ operate **many smaller units**
+✔ avoid few large units
+
+This suggests that a model of **compact coffee shops** may be more efficient.
+
+---
+
+### 📍 Strategic Location
+
+The streets with the highest concentration of establishments include:
 
 * Sunset Blvd
 * Wilshire Blvd
 * Pico Blvd
 
-Essas regiões apresentam **alto fluxo de clientes**, porém também possuem **aluguel mais elevado**.
+These regions have **high customer flow**, but also have **higher rent**.
 
-Uma estratégia alternativa pode incluir **ruas próximas com grande fluxo de pedestres e menor custo imobiliário**.
-
----
-
-# 🚀 Recomendação de Negócio
-
-Com base nos dados analisados, a estratégia recomendada inclui:
-
-* ☕ Cafeterias compactas
-* 🤖 Integração de tecnologia (garçons robôs)
-* 📍 Localização próxima a polos tecnológicos
-* 📉 Redução de custos operacionais
-* 📈 Manutenção de ticket médio competitivo
+An alternative strategy can include **nearby streets with high pedestrian traffic and lower real estate costs**.
 
 ---
 
-# 👨‍💻 Autor
+# 🚀 Business Recommendation
 
-**Guilherme Marques**
+Based on the data analyzed, the recommended strategy includes:
 
-Projeto desenvolvido como parte do aprendizado em **Análise de Dados**, com foco em transformar dados em **insights estratégicos para tomada de decisão**.
+* ☕ Compact coffee shops
+* 🤖 Technology integration (robot waiters)
+* 📍 Location near tech hubs
+* 📉 Reduction of operating costs
+* 📈 Maintenance of competitive average ticket
+
+---
+
+# 👨‍💻 Author
+
+***Guilherme Marques**
+
+Project developed as part of learning in **Data Analysis**, with a focus on transforming data into **strategic insights for decision-making**.
